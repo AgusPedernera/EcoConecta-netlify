@@ -1,6 +1,6 @@
 [build]
 command = "npm run build"
-publish = "client"        # La carpeta que contiene los archivos estáticos generados
+publish = "dist"        # La carpeta que contiene los archivos estáticos generados
 
 [[redirects]]
 from = "/api/cards/*"
