@@ -1,6 +1,6 @@
 [build]
-command = "npm run full"
-publish = "client/"   # La carpeta que contiene los archivos estáticos generados
+command = "npm install && npm run full"
+publish = "client"   # La carpeta que contiene los archivos estáticos generados
 
 [[redirects]]
 from = "/api/*"
