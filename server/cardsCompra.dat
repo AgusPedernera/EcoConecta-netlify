@@ -1,0 +1,62 @@
+[  
+  {
+    "_id": ObjectId("657b894a4c83044cefaa3282"),
+    nombre: 'vainilla prendas',
+    categoria: 'ropa',
+    instagram: 'https://www.instagram.com/vainilla.prendas/',
+    direccion: 'Hualfin 182, planta alta - B° Alberdi',
+    telefono: '-',
+    pagina_web: 'https://vainillatiendavintage.empretienda.com.ar/',
+    comentarios: 'Tienda de ropa vintage, responden consultas a través de Instagram y cuentan con página web para realizar desde allí las compras. También suelen participar de ferias de emprendedores'
+  },
+  {
+    "_id": ObjectId("657b8b401ccc630827d02845"),
+    nombre: 'ReUsar Córdoba',
+    categoria: 'ropa',
+    instagram: 'https://www.instagram.com/reusar_vintage_cordoba/',
+    direccion: '-',
+    telefono: '-',
+    pagina_web: '-',
+    comentarios: 'Tienda de ropa vintage, venden solo por Instagram y responden consultas. En Córdoba capital se manejan con envios por cadetería'
+  },
+  {
+    "_id": ObjectId("657c92afaf5c869de44dee79"),
+    nombre: 'Guemes Vintage',
+    categoria: 'ropa',
+    instagram: 'https://www.instagram.com/guemesvintage/',
+    direccion: 'Achával Rodriguez 238 - B° Güemes',
+    telefono: '3512586695',
+    pagina_web: 'https://guemesvintage.empretienda.com.ar/',
+    comentarios: 'Tienda de ropa vintage de segunda mano. Atienden consultas por mensajes privados de Instagram, y cuentan con local físico y tienda online'       
+  },
+  {
+    "_id": ObjectId("657c92afaf5c869de44dee7a"),
+    nombre: 'Feria Americana del Paseo',
+    categoria: 'ropa',
+    instagram: 'https://www.instagram.com/feriamericanadelpaseo/',
+    direccion: 'Se solicita al privado por Instagram',
+    telefono: '-',
+    pagina_web: '-',
+    comentarios: 'Tienda de ropa vintage, venden solo por Instagram y responden consultas. Realizan showroom, se debe solicitar la dirección por mensaje privado en Instagram'
+  },
+  {
+    "_id": ObjectId("657c96b594245993841d7d0e"),
+    nombre: 'Feria Las Heras',
+    categoria: 'feria',
+    instagram: 'https://www.instagram.com/paseo_lasheras/',
+    direccion: 'Avenida Costanera Mestre, entre el puente Centenario y el puente Alvear',
+    telefono: '-',
+    pagina_web: '-',
+    comentarios: 'Feria Americana con puestos que venden productos de segunda mano de todo tipo, ropa, accesorios, juguetes, bazar, repuestos, etc.'
+  },
+  {
+    "_id": ObjectId("657c96b594245993841d7d0f"),
+    nombre: 'Feria Bv. Bulnes',
+    categoria: 'feria',
+    instagram: '-',
+    direccion: 'Entre avenida Las Malvinas y bulevar Bulnes',
+    telefono: '-',
+    pagina_web: '-',
+    comentarios: 'Feria Americana con puestos que venden una categoria variada de productos. Hay puestos con tablones y manteros. Se desarrolla en el espacio de las vías del tren'
+  }
+]

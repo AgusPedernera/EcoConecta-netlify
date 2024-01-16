@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@700&display=swap');
+
+.formAporte {
+   width: 400px;
+   padding: 30px;
+   margin: auto;
+   /* margin-top: 20px; */
+   font-family: 'Urbanist', sans-serif;
+   background: #F2F3EB;
+   font-weight: 700;
+}
+
+.formAporte h3 {
+   font-size: 22px;
+   margin-bottom: 20px;
+   text-align: center;
+   color: #04382B;
+}
+
+.disp {
+   display: flex;
+
+}
+
+.name {
+   margin-right: 20px;
+   /* border-bottom: 2px solid #b6b6b6; */
+   /* pointer-events: none; */
+}
+
+.control {
+   width: 100%;
+   background-color: #F2F3EB;
+   padding: 8px;
+   border-radius: 4px;
+   border: 1.5px solid #04382B;
+   font-family: 'Urbanist', sans-serif;
+   font-weight: 700;
+}
+
+.controls {
+   width: 100%;
+   background-color: #F2F3EB;
+   padding: 8px;
+   border-radius: 4px;
+   margin-bottom: 16px;
+   border: 1.5px solid #04382B;
+   font-family: 'Urbanist', sans-serif;
+   font-weight: 700;
+}
+
+.boton {
+   width: 100%;
+   background-color: #F2F3EB;
+   border: 1.5px solid #04382B;
+   padding: 12px;
+   color: 04382B;
+   font-family: 'Urbanist', sans-serif;
+   border-radius: 4px;
+   font-weight: 700;
+}
+
+.boton:hover {
+   background-color: #04382B;
+   color: white;
+   cursor: pointer;
+}

@@ -1,0 +1,6 @@
+[[redirects]]
+
+from = "/api/cards/*"
+to = "http://localhost:8080/:splat"
+status = 200
+force = true

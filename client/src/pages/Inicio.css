@@ -1,0 +1,87 @@
+.encabezado #logo {
+    font-family: 'Urbanist', sans-serif;
+    vertical-align: middle;
+    /* height: 100px; */
+    /* width: 1024px; */
+    margin: 40px 275px 0px 242px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 72px;
+    color: #1A614F;
+
+}
+
+.encabezado p {
+    height: 54px;
+    width: 598px;
+    display: block;
+    margin: 32px auto 47px auto;
+    /* margin: 10px 135px; */
+    /* padding-right: 50px; */
+    /*background-color: rgb(97, 97, 206);*/
+    text-align: center;
+    font-size: 26px;
+}
+
+.boton-central {
+    /* padding-left: 200px; */
+    align-items: center;
+
+}
+
+.boton-central a {
+    border-radius: 35px;
+    font-size: 18px;
+    /* font-weight: bolder; */
+    padding: 15px 50px;
+    background-color: #C1EDE280;
+    color: #04382B;
+    margin-left: 471px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.parte-inferior {
+    /* height: 500px; */
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+/*imagenes*/
+.parte-inferior div img {
+    height: 250px;
+    margin: 30px 100px 20px 100px;
+
+}
+
+img[alt="dona"] {
+    width: 380px;
+    height: 220px;
+    margin: 10px;
+
+}
+
+img[alt="compra"] {
+    width: 380px;
+    height: 220px;
+    margin: 10px;
+
+
+}
+
+.parte-inferior a {
+    width: 265px;
+    height: 79px;
+    border-radius: 35px;
+    font-size: 28px;
+    font-weight: bold;
+    /* margin: 335px 100px; */
+    padding: 15px 50px;
+    background-color: #62D1BA;
+    color: white;
+    margin: 200px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+
+}
