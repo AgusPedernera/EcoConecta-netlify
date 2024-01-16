@@ -1,5 +1,5 @@
 [build]
-command = "npm run build"
+command = "cd client && ./node_modules/.bin/vite build"
 publish = "client"        # La carpeta que contiene los archivos estáticos generados
 
 [[redirects]]

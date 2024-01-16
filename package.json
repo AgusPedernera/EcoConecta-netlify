@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "full": "concurrently \"cd server && npm run server\" \"cd client && npm run dev\"",
-    "build": "cd client && node_modules/.bin/vite build"
+    "full": "concurrently \"cd server && npm run server\" \"cd client && npm run dev\""
+  
   },
   "dependencies": {
     "axios": "^1.6.5"
