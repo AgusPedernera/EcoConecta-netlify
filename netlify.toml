@@ -1,6 +1,9 @@
-[[redirects]]
+[build]
+command = "npm run build"
+publish = "client/dist"   # La carpeta que contiene los archivos estáticos generados
 
-from = "/api/cards/*"
+[[redirects]]
+from = "/api/*"
 to = "http://localhost:8080/:splat"
 status = 200
 force = true
