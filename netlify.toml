@@ -1,9 +1,12 @@
 [build]
-command = "npm install && npm run full"
-publish = "client"   # La carpeta que contiene los archivos estáticos generados
+command = "npm run build"
+publish = "client"        # La carpeta que contiene los archivos estáticos generados
 
 [[redirects]]
-from = "/api/*"
-to = "http://localhost:8080/:splat"
+from = "/api/cards/*"
+to = "http://localhost:5173/:splat"
 status = 200
 force = true
+
+[dev]
+command = "npm run full"
