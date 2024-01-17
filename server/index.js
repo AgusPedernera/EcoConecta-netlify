@@ -2,15 +2,21 @@ import express from 'express';
 import routerCards from './routers/cards.js';
 // import DB from './models/cards-mongodb.js';
 import config from './config.js';
-// import cors from 'cors'
+import cors from 'cors'
 // await DB.connectDB();
 // DB.connectDB();
 
 const PORT = config.PORT;
 
 const app = express();
-
-// app.use(cors());
+const corsOptions = {
+    origin: 'http://localhost:5173/', // Reemplaza con la URL de tu frontend
+    methods: 'GET',
+    credentials: true, // Permite el envío de cookies
+    optionsSuccessStatus: 204, // Configura el código de estado para las solicitudes OPTIONS preflight
+    allowedHeaders: 'Content-Type,Authorization', // Especifica los encabezados permitidos
+};
+app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static('./public'));
