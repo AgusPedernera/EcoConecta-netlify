@@ -7,6 +7,13 @@ const CardInfo = (props) => {
     const [cardsData, setCardsData] = useState([]);
     const url = props.url
 
+
+    const api = axios.create({
+        baseURL: 'https://ecoconecta.onrender.com/api/cards',
+        withCredentials: true, // Permite el envío de cookies
+    });
+
+
     useEffect(() => {
         // Define la función asincrónica para realizar la solicitud GET
         const fetchData = async () => {
@@ -44,7 +51,7 @@ const CardInfo = (props) => {
 
                             <p className='parrafo'>Direccion: <span>{card.direccion}</span></p>
                             {/* <p>Teléfono: <span>{card.telefono}</span></p> */}
-                            <p className='parrafo'>Página Web: <NavLink to= {card.pagina_web}>{card.pagina_web}</NavLink></p>
+                            <p className='parrafo'>Página Web: <NavLink to={card.pagina_web}>{card.pagina_web}</NavLink></p>
                             <p className='parrafo'>Comentarios: <span>{card.comentarios}</span></p>
                             <p className='parrafo'><NavLink to={card.instagram} className='intento'>Instagram</NavLink></p>
                         </div>

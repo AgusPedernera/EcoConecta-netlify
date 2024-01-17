@@ -12,8 +12,8 @@ const CardsDonaMedicamento = () => {
             <HamburgerLugares />
             <div className='conteiner-carta'>
 
-                <CardInfo url={'http://localhost:8080/api/cards/dona/medicamentos'} />
-             
+                <CardInfo url={'https://ecoconecta.onrender.com/api/cards/dona/medicamentos'} />
+
             </div>
         </>
     )

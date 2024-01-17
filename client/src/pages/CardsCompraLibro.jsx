@@ -12,8 +12,8 @@ const CardsCompraLibro = () => {
             <HamburgerLugares />
             <div className='conteiner-carta'>
 
-                <CardInfo url={'http://localhost:8080/api/cards/compra/libros'} />
-              
+                <CardInfo url={'https://ecoconecta.onrender.com/api/cards/compra/libros'} />
+
             </div>
         </>
     )

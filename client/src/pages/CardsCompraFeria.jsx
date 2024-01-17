@@ -14,7 +14,7 @@ const CardsCompraFeria = () => {
             <h2 className='tituloInfo'>Ferias</h2>
             <HamburgerLugares />
             <div className='conteiner-carta'>
-                <CardInfo url={'http://localhost:8080/api/cards/compra/ferias'} />
+                <CardInfo url={'https://ecoconecta.onrender.com/api/cards/compra/ferias'} />
             </div>
         </>
 
