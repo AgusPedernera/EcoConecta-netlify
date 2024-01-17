@@ -1,5 +1,5 @@
 [build]
-command = "npm run build && npm run full"
+command = "npm run build"
 publish = "client/dist"   # La carpeta que contiene los archivos estáticos generados
 
 [[redirects]]
