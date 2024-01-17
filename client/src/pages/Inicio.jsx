@@ -29,7 +29,7 @@ const Inicio = () => {
                 </div>
             </section>
 
-            <script src="js/proyecto_final.js"></script>
+            {/* <script src="js/proyecto_final.js"></script> */}
         </div>
     )
 }
