@@ -10,7 +10,7 @@ const PORT = config.PORT;
 
 const app = express();
 const corsOptions = {
-    origin: 'http://localhost:5173', // Reemplaza con la URL de tu frontend
+    origin: 'https://ecoconecta0.netlify.app', // Reemplaza con la URL de tu frontend
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true, // Permite el envío de cookies
     optionsSuccessStatus: 204, // Configura el código de estado para las solicitudes OPTIONS preflight
