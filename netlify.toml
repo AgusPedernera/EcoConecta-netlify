@@ -9,7 +9,7 @@ status = 200
 force = true
 [[redirects]]
 from = "/dona/*"
-to = "/dona/:splat"
+to = "http://localhost:5173/dona/:splat"
 status = 200
 
 [[redirects]]
