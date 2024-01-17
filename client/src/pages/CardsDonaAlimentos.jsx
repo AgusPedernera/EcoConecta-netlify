@@ -9,11 +9,11 @@ const CardsDonaAlimento = () => {
         <>
             <NavBar />
             <h2 className='tituloInfo'>Alimentos</h2>
-            <HamburgerLugares/>
+            <HamburgerLugares />
             <div className='conteiner-carta'>
 
-                <CardInfo url={'http://localhost:8080/api/cards/dona/alimentos'} />
-              
+                <CardInfo url={'/api/cards/dona/alimentos'} />
+
             </div>
         </>
     )
