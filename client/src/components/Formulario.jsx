@@ -39,7 +39,7 @@ const Formulario = () => {
       <br />
 
       <input className='boton' type="submit" value="ENVIAR" />
-      <input type="hidden" name="_next" value="http://localhost:5173/nosotros" />
+      <input type="hidden" name="_next" value="https://ecoconecta0.netlify.app/nosotros" />
       <input type="hidden" name='_captcha' value="false" />
       <input type="hidden" name="_subject" value="Nuevo Aporte"/>
 
