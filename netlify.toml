@@ -7,15 +7,15 @@ from = "/*"
 to = "http://localhost:8080/:splat"
 status = 200
 force = true
-[[redirects]]
-from = "/dona/*"
-to = "http://localhost:5173/dona/:splat"
-status = 200
+# [[redirects]]
+# from = "/dona/*"
+# to = "http://localhost:5173/dona/:splat"
+# status = 200
 
-[[redirects]]
-from = "/compra/*"
-to = "/compra/:splat"
-status = 200
+# [[redirects]]
+# from = "/compra/*"
+# to = "/compra/:splat"
+# status = 200
 
 [dev]
 command = "npm run full"
