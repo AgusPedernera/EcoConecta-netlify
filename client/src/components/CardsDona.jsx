@@ -6,7 +6,7 @@ const CardsDona = () => {
         {
             foto: '/img/donacion-de-alimentos.png',
             h2: 'Alimentos',
-            direccion: 'api/cards/dona/alimentos'
+            direccion: 'dona/alimentos'
         },
         {
             foto: '/img/tendedero.png',

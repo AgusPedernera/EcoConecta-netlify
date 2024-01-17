@@ -41,7 +41,7 @@ const Rutas = () => {
                 element: <CardsDonaRopa />
             },
             {
-                path: 'api/cards/dona/alimentos',
+                path: '/dona/alimentos',
                 element: <CardsDonaAlimento />
             },
             {
