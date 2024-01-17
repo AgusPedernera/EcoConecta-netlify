@@ -17,5 +17,10 @@ force = true
 # to = "/compra/:splat"
 # status = 200
 
+[[headers]]
+for = "/client/*" # Ajusta esto según la estructura de tus archivos
+[headers.values]
+Access-Control-Allow-Origin = "*"
+
 [dev]
 command = "npm run full"
